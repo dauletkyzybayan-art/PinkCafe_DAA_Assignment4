@@ -48,11 +48,13 @@ Two Rows will use less memory than the full table.
 KMP is expected to perform better than Naive Search
 on difficult repeated-character inputs.
 
+
 ### Planned Plots
-1. Recursive Edit Distance calls vs input size
-   (logarithmic Y-axis).
+
+1. Recursive Edit Distance calls vs input size (linear scale).
 2. Table vs Two Rows execution time (ms).
-3. Naive/KMP comparison ratio vs text size.
+3. Naive and KMP character comparisons vs text size.
+
 
 Each plot will include a title, labeled axes,
 units, and a short conclusion.
